@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/master/AndroidStudioProjects/DashboardMonteMar/app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/DashboardMonteMar/app/src/main/res/layout/card_bar_inferior.xml" value="0.1" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/DashboardMonteMar/app/src/main/res/layout/fragment_.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/DashboardMonteMar/app/src/main/res/layout/fragment_1.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/DashboardMonteMar/app/src/main/res/layout/fragment_2.xml" value="0.18" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/DashboardMonteMar/app/src/main/res/layout/fragment_iniciio.xml" value="0.17" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/DashboardMonteMar/app/src/main/res/layout/fragment_panel.xml" value="0.2" />
+        <entry key="..\:/Users/master/AndroidStudioProjects/DashboardMonteMar/app/src/main/res/layout/fragment_usuario.xml" value="0.17333333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
