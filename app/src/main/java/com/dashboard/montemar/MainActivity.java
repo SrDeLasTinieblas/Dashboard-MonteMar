@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     public ImageButton openFragment;
-    Button primerFragment, segundoFragment ;
+    Button primerFragment, segundoFragment, tercerFragment;
     //public Button openFragment;
 
     @Override
@@ -33,7 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void setSegundoFragment(View view){
         replaceFragment(new Fragment2());
     }
-
+    public void setTercerFragment(View view){
+        replaceFragment(new Fragment3());
+    }
     private void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -41,28 +43,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fragmentTransaction.commit();
     }
 
-    public void onClickpanel(View view){
-        try {
-            FragmentPanel fragmentPanel = new FragmentPanel();
-            FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.FragmentIniciio, fragmentPanel);
-            fragmentTransaction.commit();
-        }catch (Exception e){
-            System.out.println(e);
-        }
-
-    }
-    public void onClickInicio(View view){
-        try{
-            FragmentIniciio fragmentIniciio = new FragmentIniciio();
-            FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.FragmentPanel, fragmentIniciio);
-            fragmentTransaction.commit();
-        }catch (Exception e){
-            System.out.println(e);
-        }
-
-    }
     /*public void onClickUsuario(View view){
         FragmentUsuario fragmentIniciio = new FragmentUsuario();
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();

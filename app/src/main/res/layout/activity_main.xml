@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="600dp" />
 
-    <Button
+    <!--<Button
         android:id="@+id/fragment1Btn"
         android:layout_width="150dp"
         android:layout_height="60dp"
@@ -34,18 +33,72 @@
         android:layout_marginBottom="50dp"
         android:backgroundTint="@color/black"
         android:onClick="setSegundoFragment"
-        android:text="Fragment 2" />
+        android:text="Fragment 2" />-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="25dp"
+        app:cardBackgroundColor="#000000"
+        app:cardCornerRadius="20dp">
+
+        <!--<ImageButton
+            android:id="@+id/ImageButtonInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickInicio"
+            app:srcCompat="@drawable/ic_launcher_foreground" />-->
+
+        <Button
+            android:id="@+id/fragment1Btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/home_50px"
+            android:onClick="setPrimerFragment" />
+
+        <Button
+            android:id="@+id/fragment2Btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/home_50px"
+            android:onClick="setSegundoFragment" />
 
 
+        <Button
+            android:id="@+id/fragment3Btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="260dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/home_50px"
+            android:onClick="setTercerFragment" />
+
+
+    </androidx.cardview.widget.CardView>
     <!--<androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentViewPanel"
-        android:name="com.dashboard.montemar.FragmentIniciio"
-        android:layout_width="match_parent"
-        android:layout_height="788dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/include" />-->
+android:id="@+id/fragmentViewPanel"
+android:name="com.dashboard.montemar.FragmentIniciio"
+android:layout_width="match_parent"
+android:layout_height="788dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="@+id/include" />-->
 
     <!--<androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentViewUsuario"
