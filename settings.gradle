@@ -10,6 +10,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url "https://dl.cloudsmith.io/public/troysoft/jplot/maven/"
+        }
     }
 }
 rootProject.name = "Dashboard-MonteMar"

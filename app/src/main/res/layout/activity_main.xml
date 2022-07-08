@@ -9,31 +9,9 @@
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="600dp" />
+        android:layout_height="600dp"
+        />
 
-    <!--<Button
-        android:id="@+id/fragment1Btn"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="50dp"
-        android:backgroundTint="@color/black"
-        android:onClick="setPrimerFragment"
-        android:text="Fragment 1" />
-
-    <Button
-        android:id="@+id/fragment2Btn"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        android:backgroundTint="@color/black"
-        android:onClick="setSegundoFragment"
-        android:text="Fragment 2" />-->
 
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
@@ -46,13 +24,6 @@
         android:layout_marginBottom="25dp"
         app:cardBackgroundColor="#000000"
         app:cardCornerRadius="20dp">
-
-        <!--<ImageButton
-            android:id="@+id/ImageButtonInicio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onClickInicio"
-            app:srcCompat="@drawable/ic_launcher_foreground" />-->
 
         <Button
             android:id="@+id/fragment1Btn"
@@ -90,55 +61,7 @@
 
 
     </androidx.cardview.widget.CardView>
-    <!--<androidx.fragment.app.FragmentContainerView
-android:id="@+id/fragmentViewPanel"
-android:name="com.dashboard.montemar.FragmentIniciio"
-android:layout_width="match_parent"
-android:layout_height="788dp"
-app:layout_constraintEnd_toEndOf="parent"
-app:layout_constraintHorizontal_bias="0.0"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="@+id/include" />-->
 
-    <!--<androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentViewUsuario"
-        android:name="com.dashboard.montemar.FragmentPanel
-        android:layout_width="match_parent"
-        android:layout_height="239dp"
-        app:layout_constraintBottom_toBottomOf="@+id/include"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/include"
-        app:layout_constraintVertical_bias="0.602" />-->
-
-    <!--<TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <include
-        android:id="@+id/include"
-        layout="@layout/card_bar_inferior"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-54dp" />
-
-    <Button
-        android:id="@+id/ButtonOpenFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="144dp"
-        android:onClick="onClickpanel"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="@+id/include"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent" />-->
 
 
 </RelativeLayout>

@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         primerFragment = findViewById(R.id.fragment1Btn);
         segundoFragment = findViewById(R.id.fragment2Btn);
 
-
+        replaceFragment(new Fragment1());
         openFragment = findViewById(R.id.ImageButtonPanel);
     }
     public void setPrimerFragment(View view){
